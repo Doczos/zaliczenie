@@ -4,10 +4,10 @@ class Main {
   public static void main(String[] args) {
     System.out.println("Prędkość w m/s");
     Scanner pobierz = new Scanner(System.in);
-    int a,b;
+    double a,b;
       a = pobierz.nextInt();
     System.out.println("Druga liczba");
-      b = 1000;
+      b = 3.6;
           System.out.println("Wybierz :\n 1 - Przelicznik");
     int wybierz;
     wybierz = pobierz.nextInt();
@@ -20,7 +20,7 @@ class Main {
    public static double przelicz(double x, double y)
       {
         System.out.println("Prędkość w km/h");
-        double wynik =x / y;
+        double wynik =x * y;
         return wynik;
       }  
 }
